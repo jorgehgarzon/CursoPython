@@ -1,0 +1,11 @@
+1,leche,50000
+2,huevos,15000
+3,pan,5000
+4,harina,10000
+5,arroz,25000
+6,panela,3000
+7,cafe,8000
+8,queso,15000
+9,jamon,20000
+
+11,vino,15000

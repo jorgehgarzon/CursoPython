@@ -1,0 +1,26 @@
+prod = int(input("Ingrese la cantidad de productos: "))
+i=0
+sub=0
+SINIVA = 0
+IVADELCINCO=0.05
+IVAFULL = 0.19
+
+while i < prod:
+    cod = int(input("Codigo del producto: "))
+    nom = input("nombre producto: ")
+    cant = float(input("Cantidad: "))
+    valor= float(input("Valor sin IVA: "))
+    iva = float(input("ingrese el IVA: 1 sin iva, 2 iova del 5% y 3 iva full del 19%: "))
+    if(iva==1):
+       print("sin iva", SINIVA)
+    if(iva==2):
+       print("iva del 5%", IVADELCINCO )
+    else:
+        subtotal = (cant*valor)*IVAFULL
+    i=+1
+sub = sub + subtotal
+print ("Codigo del producto: ", cod)
+print ("Nombre del producto: ", nom)
+print ("Cantidad comprada: ", cant)
+print ("Valor producto: ", subtotal)
+print ("Valor total productos: ", subtotal)
